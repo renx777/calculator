@@ -53,7 +53,7 @@ function delf(){
     var k=document.getElementById("songTextInput").value;
      var t= k.replace('π','3.14159')
     var l=eval(t);
-    document.getElementById("songTextInput").value=l.toFixed(2);
+    document.getElementById("songTextInput").value=l
     
     }
     

@@ -16,7 +16,7 @@ function delf(){
     
     }
     
-    function dis(num){
+    function display(num){
     if(num==17){
     
     num="*0";
@@ -46,6 +46,12 @@ function delf(){
     var l=num;
     document.getElementById("songTextInput").value=document.getElementById("songTextInput").value+num;
     
+    }
+
+    function square(){
+        var k=document.getElementById("songTextInput").value;
+        var result=k*k;
+        document.getElementById("songTextInput").value=result;
     }
     
     function eva(){

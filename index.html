@@ -7,9 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculator</title>
     <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    
     <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+    Specify in CSS
+   
     <link rel="stylesheet" href="styles.css">
     <script src="myjs.js"></script>
 
@@ -37,10 +39,10 @@
         <table>
             <tr>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(14)">π</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(14)">π</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(14)">%</button>
+                    <button class="btn btn-lg" class="btn" onclick="square()">x <sup>2</sup></button>
                 </td>
                 <td>
                     <button class="btn btn-lg" class="btn" onclick="delf()">ce</button>
@@ -52,60 +54,60 @@
 
             <tr>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(7)">7</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(7)">7</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(8)">8</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(8)">8</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(9)">9</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(9)">9</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(11)">+</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(11)">+</button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(4)">4</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(4)">4</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(5)">5</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(5)">5</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(6)">6</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(6)">6</button>
                 </td>
 
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(12)">-</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(12)">-</button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(1)">1</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(1)">1</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(2)">2</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(2)">2</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(3)">3</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(3)">3</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(13)">X</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(13)">X</button>
 
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis(0)">0</button>
+                    <button class="btn btn-lg" class="btn" onclick="display(0)">0</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn" onclick="dis('.')">. </button>
+                    <button class="btn btn-lg" class="btn" onclick="display('.')">. </button>
                 </td>
                 <td>
                     <button class="btn btn-lg" class="btn btn-lg" class="btn" onclick="eva()">=</button>
                 </td>
                 <td>
-                    <button class="btn btn-lg" class="btn btn-lg" class="btn" onclick="dis('/')">/</button>
+                    <button class="btn btn-lg" class="btn btn-lg" class="btn" onclick="display('/')">/</button>
                 </td>
 
             </tr>
